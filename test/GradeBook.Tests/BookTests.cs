@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-// test example
+// test example 2
 namespace GradeBook.Tests
 {
     public class BookTests
