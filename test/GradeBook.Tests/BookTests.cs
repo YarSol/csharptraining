@@ -1,6 +1,7 @@
 using System;
 using Xunit;
 
+// test example
 namespace GradeBook.Tests
 {
     public class BookTests
@@ -17,10 +18,10 @@ namespace GradeBook.Tests
             // act
             var result = book.GetStatistics();
 
-            // assert
+            // assert 
             Assert.Equal(200, result.Average, 1);
             Assert.Equal(300, result.High, 1);
-            Assert.Equal(100, result.Low, 1);
+            Assert.Equal(100, result.Low, 1); 
         }
     }
 }
